@@ -36,7 +36,7 @@ def greet(name):
 
 print(greet("World"))
 ```
-
+```
   1           0 LOAD_CONST               0 (<code object greet at 0x...>)
               2 LOAD_CONST               1 ('greet')
               4 MAKE_FUNCTION            0
@@ -50,5 +50,4 @@ print(greet("World"))
              18 POP_TOP
              20 LOAD_CONST               3 (None)
              22 RETURN_VALUE
-===== End of bytecode =====
-
+```
