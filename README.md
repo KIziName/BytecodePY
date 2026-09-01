@@ -36,6 +36,8 @@ def greet(name):
 
 print(greet("World"))
 ```
+----
+
 ```
   1           0 LOAD_CONST               0 (<code object greet at 0x...>)
               2 LOAD_CONST               1 ('greet')
