@@ -1,4 +1,4 @@
-# 🔍 disassemble-Py
+## 🔍 disassemble-Py
 
 Простой консольный инструмент для просмотра байт-кода Python.  
 
@@ -30,11 +30,12 @@
 - Python 3.6 и выше
 
 ## Прммер кода (исходник + байт-код)
+``` python
 def greet(name):
     return f"Hello, {name}!"
 
 print(greet("World"))
-
+```
 
   1           0 LOAD_CONST               0 (<code object greet at 0x...>)
               2 LOAD_CONST               1 ('greet')
