@@ -54,7 +54,7 @@ print(greet("World"))
              22 RETURN_VALUE
 ```
 
-🔍 disassemble-Py
+##🔍 disassemble-Py
 
 A simple console tool for viewing Python bytecode.
 
@@ -62,7 +62,7 @@ It compiles a specified .py file and shows what Python turns your code into befo
 
 ---
 
-📦 What is it?
+##📦 What is it?
 
 disassemble-py is a lightweight wrapper around the built-in dis module. It helps you:
 
@@ -73,7 +73,7 @@ disassemble-py is a lightweight wrapper around the built-in dis module. It helps
 
 ---
 
-🚀 Installation
+##🚀 Installation
 
 Copy the script to any folder:
 
