@@ -53,3 +53,36 @@ print(greet("World"))
              20 LOAD_CONST               3 (None)
              22 RETURN_VALUE
 ```
+
+🔍 disassemble-Py
+
+A simple console tool for viewing Python bytecode.
+
+It compiles a specified .py file and shows what Python turns your code into before execution.
+
+---
+
+📦 What is it?
+
+disassemble-py is a lightweight wrapper around the built-in dis module. It helps you:
+
+· understand how the CPython interpreter works;
+· find "hot spots" in your code;
+· debug unexpected behavior;
+· study bytecode for self‑education.
+
+---
+
+🚀 Installation
+
+Copy the script to any folder:
+
+1. Run it.
+2. Enter the name of the .py file.
+3. Get the resulting bytecode.
+
+Requirements
+
+· Python 3.6 and above
+
+Example code (source + bytecode)
