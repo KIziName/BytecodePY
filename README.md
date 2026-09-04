@@ -11,11 +11,8 @@
 `disassemble-py` – это лёгкая обёртка над встроенным модулем `dis`. Она помогает:
 
 - понять, как работает интерпретатор CPython;
-- 
 - находить «горячие» места в коде;
-- 
 - отлаживать неочевидное поведение;
-- 
 - изучать байт-код для самообразования.
 
 ---
@@ -24,9 +21,9 @@
 
 Перенесите скрипт в любую папку:
 
-1-запустите
-2-напишите названия `.py`
-3-готовый байт-код
+1. Запустите
+2. Напишите названия `.py`
+3. Готовый байт-код
 
 ## Требования
 - **Python 3.6** и выше
@@ -68,10 +65,13 @@ It compiles a specified .py file and shows what Python turns your code into befo
 
 disassemble-py is a lightweight wrapper around the built-in dis module. It helps you:
 
-· understand how the CPython interpreter works;
-· find "hot spots" in your code;
-· debug unexpected behavior;
-· study bytecode for self‑education.
+- understand how the CPython interpreter works;
+
+-find "hot spots" in your code;
+
+- debug unexpected behavior;
+
+- study bytecode for self‑education.
 
 ---
 
