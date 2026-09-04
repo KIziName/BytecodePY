@@ -85,7 +85,7 @@ Copy the script to any folder:
 
 ## Requirements
 
-·***Python 3.6*** and above
+- ***Python 3.6*** and above
 
 ## Example code (source + bytecode)
 ``` python
