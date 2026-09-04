@@ -66,11 +66,8 @@ It compiles a specified .py file and shows what Python turns your code into befo
 disassemble-py is a lightweight wrapper around the built-in dis module. It helps you:
 
 - understand how the CPython interpreter works;
-
 - find "hot spots" in your code;
-
 - debug unexpected behavior;
-
 - study bytecode for self‑education.
 
 ---
