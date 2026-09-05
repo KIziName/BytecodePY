@@ -1,4 +1,4 @@
-## 🔍 disassemble-Py
+## 🔍 disassemblePY
 
 Простой консольный инструмент для просмотра байт-кода Python.  
 
@@ -8,7 +8,7 @@
 
 ## 📦 Что это?
 
-`disassemble-py` – это лёгкая обёртка над встроенным модулем `dis`. Она помогает:
+`disassemblePY` – это лёгкая обёртка над встроенным модулем `dis`. Она помогает:
 
 - понять, как работает интерпретатор CPython;
 - находить «горячие» места в коде;
@@ -53,7 +53,7 @@ print(greet("World"))
              22 RETURN_VALUE
 ```
 
-## 🔍 disassemble-Py
+## 🔍 disassemblePY
 
 A simple console tool for viewing Python bytecode.
 
@@ -63,7 +63,7 @@ It compiles a specified .py file and shows what Python turns your code into befo
 
 ## 📦 What is it?
 
-disassemble-py is a lightweight wrapper around the built-in dis module. It helps you:
+`disassemblePY` -is a lightweight wrapper around the built-in dis module. It helps you:
 
 - understand how the CPython interpreter works;
 - find "hot spots" in your code;
