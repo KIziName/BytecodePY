@@ -8,7 +8,7 @@
 
 ## 📦 Что это?
 
-`disassemblePY` – это лёгкая обёртка над встроенным модулем `dis`. Она помогает:
+Это лёгкая обёртка над встроенным модулем `dis`. Она помогает:
 
 - понять, как работает интерпретатор CPython;
 - находить «горячие» места в коде;
@@ -63,7 +63,7 @@ It compiles a specified .py file and shows what Python turns your code into befo
 
 ## 📦 What is it?
 
-`disassemblePY` -is a lightweight wrapper around the built-in dis module. It helps you:
+Is a lightweight wrapper around the built-in dis module. It helps you:
 
 - understand how the CPython interpreter works;
 - find "hot spots" in your code;
