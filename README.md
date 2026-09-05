@@ -57,7 +57,7 @@ print(greet("World"))
 
 A simple console tool for viewing Python bytecode.
 
-It compiles a specified .py file and shows what Python turns your code into before execution.
+It compiles a specified `.py` file and shows what Python turns your code into before execution.
 
 ---
 
@@ -77,7 +77,7 @@ Is a lightweight wrapper around the built-in dis module. It helps you:
 Copy the script to any folder:
 
 1. Run it.
-2. Enter the name of the .py file.
+2. Enter the name of the `.py` file.
 3. Get the resulting bytecode.
 
 ## Requirements
