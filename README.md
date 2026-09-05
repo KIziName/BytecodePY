@@ -4,7 +4,6 @@
 
 Он компилирует указанный `.py`-файл и показывает, во что Python превращает ваш код перед выполнением.
 
----
 
 ## 📦 Что это?
 
@@ -15,7 +14,6 @@
 - отлаживать неочевидное поведение;
 - изучать байт-код для самообразования.
 
----
 
 ## 🚀 Установка
 
@@ -59,7 +57,6 @@ A simple console tool for viewing Python bytecode.
 
 It compiles a specified `.py` file and shows what Python turns your code into before execution.
 
----
 
 ## 📦 What is it?
 
@@ -70,7 +67,6 @@ Is a lightweight wrapper around the built-in `dis` module. It helps you:
 - debug unexpected behavior;
 - study bytecode for self‑education.
 
----
 
 ## 🚀 Installation
 
