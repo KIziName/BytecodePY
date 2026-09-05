@@ -63,7 +63,7 @@ It compiles a specified `.py` file and shows what Python turns your code into be
 
 ## 📦 What is it?
 
-Is a lightweight wrapper around the built-in dis module. It helps you:
+Is a lightweight wrapper around the built-in `dis` module. It helps you:
 
 - understand how the CPython interpreter works;
 - find "hot spots" in your code;
