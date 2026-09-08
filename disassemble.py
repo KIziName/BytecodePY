@@ -2,6 +2,7 @@ import sys
 import dis
 import os
 
+
 def show_bytecode(filepath):
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
