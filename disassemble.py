@@ -30,6 +30,7 @@ def show_bytecode(filepath):
     print(f"\n===== Bytecode for {filepath} (Python {sys.version.split()[0]}) =====")
     dis.dis(code_obj)
     print("===== End of bytecode =====\n")
+    
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
