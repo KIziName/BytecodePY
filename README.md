@@ -1,6 +1,6 @@
 ## 🔍 disassemble-PY
 
-Простой консольный инструмент для просмотра байт-кода Python.  
+Простой инструмент для просмотра байт-кода Python.  
 
 Он компилирует указанный `.py`-файл и показывает, во что Python превращает ваш код перед выполнением.
 
@@ -16,8 +16,6 @@
 
 
 ## 🚀 Установка
-
-Перенесите скрипт в любую папку:
 
 1. Запустите
 2. Напишите названия `.py`
@@ -53,7 +51,7 @@ print(greet("World"))
 
 ## 🔍 disassemble-PY
 
-A simple console tool for viewing Python bytecode.
+A simple tool for viewing Python bytecode.
 
 It compiles a specified `.py` file and shows what Python turns your code into before execution.
 
@@ -69,8 +67,6 @@ Is a lightweight wrapper around the built-in `dis` module. It helps you:
 
 
 ## 🚀 Installation
-
-Copy the script to any folder:
 
 1. Run it.
 2. Enter the name of the `.py` file.
