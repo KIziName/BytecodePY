@@ -65,7 +65,7 @@ class DisassemblerApp(object):
             .pack(side=tk.LEFT, padx=(0, 4))
         tk.Button(top, text="Disassemble", command=self.run_disassemble)\
             .pack(side=tk.LEFT, padx=(0, 4))
-        tk.Button(top, text="Copy", command=self.copy)\          
+        tk.Button(top, text="Copy", command=self.copy)\       
             .pack(side=tk.LEFT, padx=(0, 4))           
         tk.Button(top, text="Clear", command=self.clear)\
             .pack(side=tk.LEFT)
