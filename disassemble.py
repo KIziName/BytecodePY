@@ -61,14 +61,10 @@ class DisassemblerApp(object):
         entry.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=(6, 6))
         entry.bind("<Return>", lambda e: self.run_disassemble())
 
-        tk.Button(top, text="Browse...", command=self.browse)\
-            .pack(side=tk.LEFT, padx=(0, 4))
-        tk.Button(top, text="Disassemble", command=self.run_disassemble)\
-            .pack(side=tk.LEFT, padx=(0, 4))
-        tk.Button(top, text="Copy", command=self.copy)\       
-            .pack(side=tk.LEFT, padx=(0, 4))           
-        tk.Button(top, text="Clear", command=self.clear)\
-            .pack(side=tk.LEFT)
+        tk.Button(top, text="Browse...", command=self.browse).pack(side=tk.LEFT, padx=(0, 4))
+        tk.Button(top, text="Disassemble", command=self.run_disassemble).pack(side=tk.LEFT, padx=(0, 4))
+        tk.Button(top, text="Copy", command=self.copy).pack(side=tk.LEFT, padx=(0, 4))           
+        tk.Button(top, text="Clear", command=self.clear).pack(side=tk.LEFT)
 
         self.text = scrolledtext.ScrolledText(root, wrap=tk.NONE,
                                               font=("Courier New", 10))
