@@ -65,6 +65,8 @@ class DisassemblerApp(object):
             .pack(side=tk.LEFT, padx=(0, 4))
         tk.Button(top, text="Disassemble", command=self.run_disassemble)\
             .pack(side=tk.LEFT, padx=(0, 4))
+        tk.Button(top, text="Copy", command=self.copy)\          
+            .pack(side=tk.LEFT, padx=(0, 4))           
         tk.Button(top, text="Clear", command=self.clear)\
             .pack(side=tk.LEFT)
 
@@ -80,6 +82,8 @@ class DisassemblerApp(object):
         self.status = tk.Label(root, text="Ready.", anchor="w", relief=tk.SUNKEN)
         self.status.pack(fill=tk.X, side=tk.BOTTOM)
 
+        self.text.bind("<Button-3>", lambda e: self.copy())
+
         self.set_text("Enter a .py filename and press Disassemble.\n"
                       "Python: {}\n".format(sys.version.split()[0]))
 
@@ -93,6 +97,17 @@ class DisassemblerApp(object):
     def clear(self):
         self.set_text("")
         self.status.config(text="Cleared.")
+
+    def copy(self):
+        try:
+            data = self.text.get(tk.SEL_FIRST, tk.SEL_LAST)
+        except tk.TclError:
+            data = self.text.get("1.0", tk.END)
+            
+        self.root.clipboard_clear()
+        self.root.clipboard_append(data)
+        self.root.update()
+        self.status.config(text="Copied to clipboard.")
 
     def browse(self):
         path = filedialog.askopenfilename(
